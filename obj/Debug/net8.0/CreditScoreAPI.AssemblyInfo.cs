@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CreditScoreAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f751403a1e02140d1bc8b7065a21564a33311007")]
 [assembly: System.Reflection.AssemblyProductAttribute("CreditScoreAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CreditScoreAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

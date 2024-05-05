@@ -1,4 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
+using CsvHelper;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
 [ApiController]
 [Route("[controller]/[action]")]
 public class CreditScoreController : ControllerBase
@@ -24,7 +29,7 @@ public class CreditScoreController : ControllerBase
     [FromQuery] string annualMileage)
   {
 
-    var creditScores = CreditScore.Calcular(age, drivingExperience, vehicleYear, vehicleType, gender, education, income, annualMileage, _dataLoad);
+    var creditScores = CreditScore.Calcular(age, gender, drivingExperience, education, income, vehicleYear, vehicleType, annualMileage, _dataLoad);
     return Ok(creditScores);
   }
 }
