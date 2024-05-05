@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "35bK0C/bMNzMyjBrh0I4c6RASH3kvUWabG1INhmka5wvQJzpbj6qoeYFURwM5nmFK8EvPxqkA/rhQrN8h/AtLg==",
+  "dgSpecHash": "bA8/3GjtYRWc4NsiCzeL4iCZOl8cC8pHhA7VFq8efQ953GkHC+agNgzX6Vt2B2kvhPyBf+m2sfFlfnf7fnUdJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TIAGO\\Documents\\Dev\\CScoreAPI\\CreditScoreAPI\\CreditScoreAPI.csproj",
+  "projectFilePath": "c:\\Users\\TIAGO\\Documents\\Dev\\CScoreAPI\\CreditScoreAPI\\CreditScoreAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TIAGO\\.nuget\\packages\\csvhelper\\32.0.1\\csvhelper.32.0.1.nupkg.sha512",
     "C:\\Users\\TIAGO\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.3\\microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",

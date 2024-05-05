@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TIAGO\\Documents\\Dev\\CScoreAPI\\CreditScoreAPI\\CreditScoreAPI.csproj": {}
+    "c:\\Users\\TIAGO\\Documents\\Dev\\CScoreAPI\\CreditScoreAPI\\CreditScoreAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TIAGO\\Documents\\Dev\\CScoreAPI\\CreditScoreAPI\\CreditScoreAPI.csproj": {
+    "c:\\Users\\TIAGO\\Documents\\Dev\\CScoreAPI\\CreditScoreAPI\\CreditScoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TIAGO\\Documents\\Dev\\CScoreAPI\\CreditScoreAPI\\CreditScoreAPI.csproj",
+        "projectUniqueName": "c:\\Users\\TIAGO\\Documents\\Dev\\CScoreAPI\\CreditScoreAPI\\CreditScoreAPI.csproj",
         "projectName": "CreditScoreAPI",
-        "projectPath": "C:\\Users\\TIAGO\\Documents\\Dev\\CScoreAPI\\CreditScoreAPI\\CreditScoreAPI.csproj",
+        "projectPath": "c:\\Users\\TIAGO\\Documents\\Dev\\CScoreAPI\\CreditScoreAPI\\CreditScoreAPI.csproj",
         "packagesPath": "C:\\Users\\TIAGO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TIAGO\\Documents\\Dev\\CScoreAPI\\CreditScoreAPI\\obj\\",
+        "outputPath": "c:\\Users\\TIAGO\\Documents\\Dev\\CScoreAPI\\CreditScoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TIAGO\\AppData\\Roaming\\NuGet\\NuGet.Config"
