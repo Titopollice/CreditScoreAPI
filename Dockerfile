@@ -1,15 +1,22 @@
+# Define a imagem base para construção do aplicativo
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
-WORKDIR /App
+WORKDIR /app
 
-# Copy everything
+# Copia todos os arquivos do diretório atual para o diretório de trabalho no contêiner
 COPY . ./
-# Restore as distinct layers
+
+# Restaura as dependências
 RUN dotnet restore
-# Build and publish a release
+
+# Publica o aplicativo em modo Release
 RUN dotnet publish -c Release -o out
 
-# Build runtime image
+# Define a imagem base para a execução do aplicativo
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
-WORKDIR /App
-COPY --from=build-env /App/out .
+WORKDIR /app
+
+# Copia os arquivos publicados do diretório de compilação para o diretório de trabalho no contêiner
+COPY --from=build-env /app/out .
+
+# Define o ponto de entrada para o aplicativo
 ENTRYPOINT ["dotnet", "DotNet.Docker.dll"]
