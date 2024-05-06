@@ -2,6 +2,9 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app
 
+# Instala o SDK do .NET Core
+RUN dotnet --version
+
 # Copia todos os arquivos do diretório atual para o diretório de trabalho no contêiner
 COPY . ./
 
